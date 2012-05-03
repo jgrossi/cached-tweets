@@ -22,9 +22,9 @@ Usage
 
 ### Options
 
-If you want URL replaced with links (<a> tags), just set true (or nothing) to the second parameters:
+If you want URLs replaced by links (html tags), just set true (or nothing) to the second parameter:
 
     $tweets = $twitter->getLastTweets(5, true); // or
     $tweets = $twitter->getLastTweets(5);
 
-
+Or if you want just pure text, pass `false` to the second parameter.
